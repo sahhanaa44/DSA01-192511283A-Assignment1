@@ -1,0 +1,15 @@
+# Task 04 – Predicted Output
+
+```text
+3 3.5
+C 68
+1 true
+s >= u
+```
+
+## Prediction Reasoning
+
+1. `a / b` performs integer division, so `7 / 2` gives `3`. The result is then converted to `double`. Using `static_cast<double>(a) / b` gives `3.5`.
+2. `'A' + 2` produces the character `C`. When `ch` is added to `1`, the character is promoted to an integer, producing `68`.
+3. The integer `5` converts to `true`. By default, `bool` prints as `1`; with `boolalpha`, it prints as `true`.
+4. Comparing signed `-1` with unsigned `1` converts the signed value to unsigned. Therefore, the condition `s < u` is false.
