@@ -1,0 +1,26 @@
+**Sample 1 – io_cin.cpp**
+
+Input:
+Sahhanaa
+2
+
+Output:
+Passenger: Sahhanaa
+Zone: 2
+
+**Sample 2 – io_getline.cpp**
+
+Input:
+Sahhanaa Shree
+3
+
+Output:
+Passenger: Sahhanaa Shree
+Zone: 3
+
+**Invalid input test**
+
+Enter zone: 5
+
+Output:
+Invalid zone
