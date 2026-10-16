@@ -1,0 +1,9 @@
+**Task 05: Prediction**
+
+**Program 1 – Operator Precedence**
+
+The expression `1000 + 1000 * 20 / 100` evaluates multiplication and division before addition, producing `1200`. Using `(1000 + 1000) * 20 / 100` produces `400`.
+
+**Program 2 – Peak-Hour Calculation**
+
+Peak hours are from 8:00 AM to before 10:00 AM and from 5:00 PM to before 8:00 PM. Therefore, 8 and 17 are peak hours, while 10 and 20 are not.
